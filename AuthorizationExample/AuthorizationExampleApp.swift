@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct AuthorizationExampleApp: App {
+    @ObservedObject var appViewModel = AppViewModel()
+    init(){
+        if UserDefaults.standard.bool(forKey: "isLogin"){
+            appViewModel.isLogin = true
+        }
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if appViewModel.isLogin {
+                ContentView()
+                    .environmentObject(appViewModel)
+            } else {
+                LoginView()
+                    .environmentObject(appViewModel)
+            }
         }
     }
 }
+

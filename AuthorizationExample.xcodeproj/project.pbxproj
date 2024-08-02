@@ -14,6 +14,8 @@
 		C5D018F52C5D62480009ED32 /* AuthorizationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D018F42C5D62480009ED32 /* AuthorizationExampleTests.swift */; };
 		C5D018FF2C5D62480009ED32 /* AuthorizationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D018FE2C5D62480009ED32 /* AuthorizationExampleUITests.swift */; };
 		C5D019012C5D62480009ED32 /* AuthorizationExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D019002C5D62480009ED32 /* AuthorizationExampleUITestsLaunchTests.swift */; };
+		C5D0190E2C5D62860009ED32 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D0190D2C5D62860009ED32 /* AppViewModel.swift */; };
+		C5D019102C5D62A10009ED32 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D0190F2C5D62A10009ED32 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C5D018FA2C5D62480009ED32 /* AuthorizationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D018FE2C5D62480009ED32 /* AuthorizationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationExampleUITests.swift; sourceTree = "<group>"; };
 		C5D019002C5D62480009ED32 /* AuthorizationExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5D0190D2C5D62860009ED32 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C5D0190F2C5D62A10009ED32 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				C5D018E32C5D62470009ED32 /* AuthorizationExampleApp.swift */,
-				C5D018E52C5D62470009ED32 /* ContentView.swift */,
 				C5D018E72C5D62480009ED32 /* Assets.xcassets */,
 				C5D018E92C5D62480009ED32 /* Preview Content */,
+				C5D0190D2C5D62860009ED32 /* AppViewModel.swift */,
+				C5D0190F2C5D62A10009ED32 /* LoginView.swift */,
+				C5D018E52C5D62470009ED32 /* ContentView.swift */,
 			);
 			path = AuthorizationExample;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				C5D018E62C5D62470009ED32 /* ContentView.swift in Sources */,
 				C5D018E42C5D62470009ED32 /* AuthorizationExampleApp.swift in Sources */,
+				C5D019102C5D62A10009ED32 /* LoginView.swift in Sources */,
+				C5D0190E2C5D62860009ED32 /* AppViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
